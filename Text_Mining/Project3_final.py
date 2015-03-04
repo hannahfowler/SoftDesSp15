@@ -13,6 +13,10 @@ with open('Wuthering_Heights.txt') as f:
 text = "".join(lines)
 
 def remove_punct(text_name):
+	""" Removes punctuation from given text 
+		Input: text_name w/ punctuation
+		Output: text w/o punctuation 
+	"""
 	for line in text_name:
 		for word in line:
 			if (word in punctuation and word in text):
