@@ -1,0 +1,6 @@
+---Machine Learning Toolbox Questions---
+
+1. The general trend in the curve is somewhat upward, but noisy in between. 
+2. The beginning parts of the curve appear to be noisier. This is due to the initial training of the model. 
+3. It isn't until you run each percentage around 200 times that you begin to see a smooth curve. 
+4. Making C a very large positive number makes the general curve much smoother and gives a nice curve. 		   However, making C a negative number with a large magnitude makes the general curve downward. 
